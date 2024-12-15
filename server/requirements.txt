@@ -13,3 +13,4 @@ antlr4-python3-runtime==4.11.0
 rapidfuzz==3.10.1
 python-dotenv==1.0.1
 lark==1.2.2
+scikit-learn==1.5.2
