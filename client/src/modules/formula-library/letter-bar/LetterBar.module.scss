@@ -1,0 +1,13 @@
+.letter_bar {
+  @apply max-h-[122px] flex gap-6 overflow-x-auto overflow-y-hidden p-6;
+  background-color: var(--bar-background-color);
+  border-radius: var(--bar-border-radius);
+}
+
+.letter_bar_tip {
+  @apply m-2;
+  pointer-events: none;
+  z-index: 101;
+  border-radius: var(--bar-border-radius);
+  box-shadow: 0 0 4px 4px rgba(255, 255, 255);
+}

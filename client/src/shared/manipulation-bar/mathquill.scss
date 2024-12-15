@@ -1,0 +1,58 @@
+.mq-root-block {
+  height: 100% !important;
+  width: max-content !important;
+  display: flex !important;
+  align-items: center !important;
+  font-size: 1.8rem !important;
+
+  &.mq-hasCursor {
+    padding: 0 !important;
+  }
+
+  &.mq-empty {
+    background-color: transparent !important;
+  }
+}
+
+.mq-latex-command-input,
+.mq-cursor {
+  border-color: white !important;
+  border-width: 2px !important;
+}
+
+.mq-editable-field {
+  height: 182px !important;
+  width: 100% !important;
+  border-radius: var(--bar-border-radius) !important;
+  border: 0 !important;
+  padding: 10px !important;
+  transition: box-shadow 0.3s;
+  &.mq-focused {
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+  }
+}
+
+.mq-cursor {
+  margin-left: 0 !important;
+}
+
+.mq-denominator {
+  border-width: 2px !important;
+}
+
+.mq-empty {
+  border-width: 2px !important;
+  padding: 0 0.3em !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.mq-hasCursor {
+  padding: 0 0.3em !important;
+}
+
+.mq-math-mode {
+  padding-block: 0.8rem !important;
+  padding-inline: 1.2rem !important;
+}

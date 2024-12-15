@@ -1,0 +1,10 @@
+.icon_button {
+  @apply h-full w-full flex justify-center items-center bg-white rounded-xl cursor-pointer;
+  color: black;
+  scale: 1;
+  transition: color 0.2s, scale 0.2s;
+  &:hover {
+    color: var(--active-icon-color);
+    scale: 1.05;
+  }
+}

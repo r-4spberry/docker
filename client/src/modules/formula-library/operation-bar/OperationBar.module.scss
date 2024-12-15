@@ -1,0 +1,13 @@
+.bar {
+  @apply w-full grid justify-center p-6 gap-6 overflow-y-auto;
+  border-radius: var(--bar-border-radius);
+  background-color: var(--bar-background-color);
+  grid-template-columns: repeat(auto-fit, 100px);
+}
+
+.bar_tip {
+  pointer-events: none;
+  z-index: 101;
+  border-radius: var(--bar-border-radius);
+  box-shadow: 0 0 4px 4px rgba(255, 255, 255);
+}

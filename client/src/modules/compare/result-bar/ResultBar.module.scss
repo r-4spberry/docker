@@ -1,0 +1,15 @@
+.result_bar {
+  @apply flex h-[110px] p-2 overflow-y-hidden overflow-x-auto;
+  border-radius: var(--bar-border-radius);
+  background-color: var(--bar-background-color);
+  font-size: 1.9rem;
+  white-space: nowrap;
+}
+
+.result_bar_tip {
+  @apply m-2;
+  pointer-events: none;
+  z-index: 101;
+  border-radius: var(--bar-border-radius);
+  box-shadow: 0 0 4px 4px rgba(255, 255, 255);
+}

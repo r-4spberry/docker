@@ -1,0 +1,31 @@
+.control_wrapper {
+  @apply relative max-w-[1540px] w-full grid gap-8 self-center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr max-content;
+  font-size: 250% !important;
+}
+
+.formula_wrapper {
+  @apply w-full grid gap-8 self-center;
+  grid-template-columns: calc(30% - 2rem) 70%;
+  grid-template-rows: 400px;
+}
+
+.content {
+  @apply relative grid grid-rows-2 gap-8;
+}
+
+.content_tip {
+  pointer-events: none;
+  z-index: 101;
+  border-radius: var(--bar-border-radius);
+  box-shadow: 0 0 4px 4px rgba(255, 255, 255);
+}
+
+.help {
+  @apply absolute right-[-2rem] top-[-1rem] z-10 cursor-pointer;
+  transition: opacity 0.3s;
+  &:hover {
+    opacity: 0.8;
+  }
+}

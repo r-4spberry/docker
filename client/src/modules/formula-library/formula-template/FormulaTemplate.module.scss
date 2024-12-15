@@ -1,0 +1,18 @@
+.template {
+  @apply h-full w-full relative flex text-4xl;
+}
+
+.swap_wrapper {
+  @apply absolute top-1 left-2 cursor-pointer;
+  z-index: 1;
+  color: black;
+  transition: opacity 0.3s;
+  opacity: 0.7;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+#swap {
+  @apply w-5 h-7;
+}
